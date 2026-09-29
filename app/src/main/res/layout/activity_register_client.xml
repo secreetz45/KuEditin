@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mesh_blur"
+    android:orientation="vertical">
+
+    <!-- Header (White Compact Style) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardSurface"
+        android:elevation="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="52dp">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@drawable/ic_back_ios"
+            app:tint="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:text="Buat Akun Klien"
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <!-- Registration Card (Wider with 16dp margins) -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/form_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="32dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="18dp"
+                android:translationZ="6dp"
+                app:cardBackgroundColor="@color/cardSurface"
+                app:strokeWidth="0dp"
+                app:cardPreventCornerOverlap="false"
+                android:outlineAmbientShadowColor="#1A000000"
+                android:outlineSpotShadowColor="#1A000000"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="32dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="24dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/logo_brand_kueditin" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Identitas Pribadi"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Langkah awal untuk menemukan editor terbaik"
+                        android:textColor="@color/textSecondary"
+                        android:textSize="14sp" />
+
+                    <FrameLayout
+                        android:id="@+id/profile_picker"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp">
+
+                        <com.example.mediamatch.CircleImageView
+                            android:id="@+id/profile_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:id="@+id/profile_icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/circle_soft"
+                            android:padding="24dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_nav_profile"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="right|bottom"
+                            android:background="@drawable/circle_blue"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </FrameLayout>
+
+                    <EditText
+                        android:id="@+id/full_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:background="@drawable/bg_input"
+                        android:hint="Nama Lengkap"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/bg_input"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/bg_input"
+                        android:hint="Nomor WhatsApp (Opsional)"
+                        android:inputType="phone"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/bg_input"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/confirm_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/bg_input"
+                        android:hint="Konfirmasi Password"
+                        android:inputType="textPassword"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/agree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/agree_text"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt_terms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="@string/terms_link"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!-- Premium Register Button with Ultra-Smooth MD3 Shadow -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/btn_register_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="16dp"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="8dp"
+                        app:cardMaxElevation="12dp"
+                        android:translationZ="4dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:strokeWidth="0dp"
+                        app:cardPreventCornerOverlap="false"
+                        android:outlineAmbientShadowColor="@color/colorPrimary"
+                        android:outlineSpotShadowColor="@color/colorPrimary"
+                        android:clipChildren="false"
+                        android:clipToPadding="false">
+
+                        <TextView
+                            android:id="@+id/btn_register"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:letterSpacing="0.05"
+                            android:text="DAFTAR &amp; LANJUT"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors (Brightened Violet for Dark Backgrounds) -->
+    <color name="colorPrimary">#818CF8</color>
+    <color name="colorPrimaryDark">#5D63FF</color>
+    <color name="colorPrimaryLight">#1E1B4B</color>
+    <color name="colorSecondary">#A855F7</color>
+    <color name="colorAccent">#A855F7</color>
+
+    <!-- Neutral Palette for Dark Mode (Deep Dark Slate) -->
+    <color name="colorSurface">#0F172A</color>
+    <color name="cardSurface">#1E293B</color>
+    <color name="textPrimary">#F8FAFC</color>
+    <color name="textSecondary">#CBD5E1</color>
+    <color name="textMuted">#94A3B8</color>
+    <color name="borderLight">#334155</color>
+    <color name="borderFocus">#64748B</color>
+
+    <!-- State Colors -->
+    <color name="success">#34D399</color>
+    <color name="error">#F87171</color>
+    <color name="warning">#FBBF24</color>
+
+    <!-- PURE WHITE MUST ALWAYS BE #FFFFFF -->
+    <color name="white">#FFFFFF</color>
+    <color name="icon_background">#1E293B</color>
+    <color name="hint_color">#64748B</color>
+    <color name="colorBrand">#818CF8</color>
+    <color name="bg_soft_blue">#1E1B4B</color>
+    <color name="star_gold">#FBBF24</color>
+</resources>

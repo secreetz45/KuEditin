@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sophisticated Multi-Layer Mesh Gradient for Dark Mode -->
+
+    <!-- Base Layer -->
+    <item>
+        <shape>
+            <solid android:color="#0F172A" />
+        </shape>
+    </item>
+
+    <!-- Brand Violet Glow (Top Left) -->
+    <item>
+        <shape>
+            <gradient
+                android:centerX="5%"
+                android:centerY="5%"
+                android:gradientRadius="800dp"
+                android:startColor="#335D63FF"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <!-- Royal Blue Glow (Right Top) -->
+    <item>
+        <shape>
+            <gradient
+                android:centerX="100%"
+                android:centerY="20%"
+                android:gradientRadius="900dp"
+                android:startColor="#26818CF8"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <!-- Emerald Bloom (Center Bottom) -->
+    <item>
+        <shape>
+            <gradient
+                android:centerX="50%"
+                android:centerY="100%"
+                android:gradientRadius="1000dp"
+                android:startColor="#1A34D399"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <!-- Soft Rose Glow (Left Bottom) -->
+    <item>
+        <shape>
+            <gradient
+                android:centerX="15%"
+                android:centerY="85%"
+                android:gradientRadius="700dp"
+                android:startColor="#1AF472B6"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mesh_blur"
+    android:orientation="vertical">
+
+    <!-- Header (Consistent with Client) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardSurface"
+        android:elevation="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="52dp">
+
+        <ImageView
+            android:id="@+id/btn_back_header"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@drawable/ic_back_ios"
+            app:tint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:text="Gabung Editor"
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <!-- Progress Indicator -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="#E2E8F0"
+                android:orientation="horizontal">
+                <View
+                    android:id="@+id/editor_progress"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:background="@color/colorPrimary" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.67" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_step_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginHorizontal="16dp"
+                android:text="Langkah 1: Data Diri"
+                android:textColor="@color/textMuted"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/form_card_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="32dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="18dp"
+                android:translationZ="6dp"
+                app:cardBackgroundColor="@color/cardSurface"
+                app:strokeWidth="0dp"
+                app:cardPreventCornerOverlap="false"
+                android:outlineAmbientShadowColor="#1A000000"
+                android:outlineSpotShadowColor="#1A000000"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="32dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="24dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/logo_brand_kueditin" />
+
+                    <!-- STEP 1: PERSONAL DATA -->
+                    <LinearLayout
+                        android:id="@+id/step_1_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <FrameLayout
+                            android:id="@+id/profile_picker"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="24dp">
+                            <com.example.mediamatch.CircleImageView
+                                android:id="@+id/profile_image"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/circle_soft"
+                                android:scaleType="centerCrop" />
+                            <ImageView
+                                android:id="@+id/profile_icon"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:padding="24dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_nav_profile"
+                                app:tint="@color/colorPrimary" />
+                            <TextView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="bottom|end"
+                                android:background="@drawable/circle_blue"
+                                android:gravity="center"
+                                android:text="+"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </FrameLayout>
+
+                        <EditText
+                            android:id="@+id/edt_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Nama Lengkap atau Nama Bisnis"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+
+                        <EditText
+                            android:id="@+id/edt_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+
+                        <EditText
+                            android:id="@+id/edt_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Nomor WhatsApp (Opsional)"
+                            android:inputType="phone"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+
+                        <EditText
+                            android:id="@+id/edt_pass"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+
+                        <EditText
+                            android:id="@+id/edt_pass_confirm"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Konfirmasi Password"
+                            android:inputType="textPassword"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <!-- STEP 2: EXPERIENCE -->
+                    <LinearLayout
+                        android:id="@+id/step_2_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kategori Keahlian"
+                            android:textColor="@color/textPrimary"
+                            android:textStyle="bold" />
+
+                        <GridLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:columnCount="2">
+                            <CheckBox android:id="@+id/skill_video" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Video Editor" />
+                            <CheckBox android:id="@+id/skill_design" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Graphic Design" />
+                            <CheckBox android:id="@+id/skill_uiux" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="UI/UX Design" />
+                            <CheckBox android:id="@+id/skill_motion" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Motion Graphic" />
+                        </GridLayout>
+
+                        <EditText
+                            android:id="@+id/edt_portfolio"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:layout_marginTop="24dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Link Portofolio (Drive/Behance)"
+                            android:inputType="textUri"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+
+                        <EditText
+                            android:id="@+id/edt_exp_years"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Lama Pengalaman (Contoh: 3 Tahun)"
+                            android:inputType="text"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <!-- STEP 3: GOALS -->
+                    <LinearLayout
+                        android:id="@+id/step_3_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Apa tujuan kamu bergabung di KuEditin?"
+                            android:textColor="@color/textPrimary"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edt_goals"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/bg_textarea"
+                            android:gravity="top"
+                            android:hint="Ceritakan visi dan apa yang ingin kamu capai..."
+                            android:inputType="textMultiLine"
+                            android:padding="16dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:text="Ingin dikenal sebagai editor seperti apa?"
+                            android:textColor="@color/textPrimary"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/edt_editor_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Misal: Editor Video Gaming Profesional"
+                            android:inputType="text"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="15sp" />
+
+                        <CheckBox
+                            android:id="@+id/cb_terms"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Saya setuju dengan syarat &amp; ketentuan menjadi mitra editor."
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+                    <!-- Navigation Buttons (Inside Card for better spacing) -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_prev_container"
+                            android:layout_width="0dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="8dp"
+                            app:cardCornerRadius="28dp"
+                            app:cardElevation="0dp"
+                            app:cardBackgroundColor="@color/cardSurface"
+                            app:strokeWidth="1dp"
+                            app:strokeColor="@color/borderLight"
+                            android:visibility="invisible">
+                            <TextView
+                                android:id="@+id/btn_prev"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="KEMBALI"
+                                android:textColor="@color/textPrimary"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_next_container"
+                            android:layout_width="0dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="1.5"
+                            android:layout_marginLeft="8dp"
+                            app:cardCornerRadius="28dp"
+                            app:cardElevation="8dp"
+                            app:cardMaxElevation="12dp"
+                            android:translationZ="4dp"
+                            app:cardBackgroundColor="@color/colorPrimary"
+                            app:strokeWidth="0dp"
+                            android:outlineAmbientShadowColor="@color/colorPrimary"
+                            android:outlineSpotShadowColor="@color/colorPrimary">
+                            <TextView
+                                android:id="@+id/btn_next"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground"
+                                android:gravity="center"
+                                android:text="LANJUT"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSurface">
+
+    <!-- Dedicated Background Mesh View (Login Style) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_mesh_blur" />
+
+    <!-- Subtle Texture Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_dot_pattern"
+        android:alpha="0.08" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="40dp"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <!-- 1. Compact Cyan-to-Indigo Gradient Header Banner -->
+            <FrameLayout
+                android:id="@+id/all_editors_header_bg"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/bg_home_header"
+                android:clipChildren="false">
+
+                <!-- Decorative Background Glow Circle -->
+                <View
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="-30dp"
+                    android:layout_marginRight="-30dp"
+                    android:alpha="0.15"
+                    android:background="@drawable/circle_blue_soft" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="44dp">
+
+                    <!-- Top Bar: Back Circle Button + Title + Layout Toggle -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <ImageView
+                            android:id="@+id/btn_back"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_white_elevated"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_back_ios"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@id/btn_back"
+                            android:layout_marginStart="14dp"
+                            android:text="Semua Editor"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <!-- Feed Layout Toggle Button (1-Kolom vs 2-Kolom) -->
+                        <FrameLayout
+                            android:id="@+id/btn_layout_mode"
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_white_elevated"
+                            android:clickable="true"
+                            android:focusable="true">
+
+                            <ImageView
+                                android:id="@+id/img_layout_mode_icon"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/ic_layout_grid"
+                                app:tint="@color/colorPrimary" />
+                        </FrameLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- 2. Floating Search Bar -->
+            <LinearLayout
+                android:id="@+id/search_all_editor_container"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_alignBottom="@id/all_editors_header_bg"
+                android:layout_marginBottom="-26dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_search_white"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:translationZ="2dp">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="Search Icon"
+                    android:src="@drawable/ic_search" />
+
+                <EditText
+                    android:id="@+id/search_all_editor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Cari nama atau keahlian..."
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/textPrimary"
+                    android:textColorHint="@color/textMuted"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 3. Content Body -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/all_editors_header_bg"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="38dp">
+
+                <!-- Filter Category Horizontal Scroll -->
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="4dp">
+
+                        <LinearLayout
+                            android:id="@+id/filter_all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="38dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/bg_btn"
+                            android:gravity="center"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp">
+
+                            <TextView
+                                android:id="@+id/filter_all_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Semua"
+                                android:textColor="@color/white"
+                                android:textSize="13sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/filter_video"
+                            android:layout_width="wrap_content"
+                            android:layout_height="38dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/bg_chip"
+                            android:gravity="center"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp">
+
+                            <TextView
+                                android:id="@+id/filter_video_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Video"
+                                android:textColor="@color/textMuted"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/filter_uiux"
+                            android:layout_width="wrap_content"
+                            android:layout_height="38dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/bg_chip"
+                            android:gravity="center"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp">
+
+                            <TextView
+                                android:id="@+id/filter_uiux_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="UI/UX"
+                                android:textColor="@color/textMuted"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/filter_foto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="38dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/bg_chip"
+                            android:gravity="center"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp">
+
+                            <TextView
+                                android:id="@+id/filter_foto_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Foto"
+                                android:textColor="@color/textMuted"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/filter_motion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="38dp"
+                            android:background="@drawable/bg_chip"
+                            android:gravity="center"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp">
+
+                            <TextView
+                                android:id="@+id/filter_motion_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Motion"
+                                android:textColor="@color/textMuted"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/editor_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

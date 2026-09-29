@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KuEditin</string>
+    <string name="login_title">Selamat Datang</string>
+    <string name="login_sub">Masuk ke dashboard kreatif kamu</string>
+    <string name="email_hint">Alamat Email</string>
+    <string name="password_hint">Kata Sandi</string>
+    <string name="btn_login">MASUK</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="google_login">Lanjut dengan Google</string>
+    <string name="no_account">Belum punya akun?</string>
+    <string name="register_now">Daftar Sekarang</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_order">Pesanan</string>
+    <string name="nav_chat">Pesan</string>
+    <string name="nav_profile">Profil</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="language_option">Bahasa / Language</string>
+    <string name="logout">Keluar Akun</string>
+    <string name="cat_video">Video</string>
+    <string name="cat_uiux">UI/UX</string>
+    <string name="cat_photo">Foto</string>
+    <string name="cat_motion">Motion</string>
+    <string name="service_category">Kategori Jasa</string>
+    <string name="rec_editor">Rekomendasi Editor</string>
+    <string name="see_all">Lihat Semua</string>
+    <string name="inspiration_karya">Inspirasi Karya</string>
+    <string name="agree_text">Saya setuju dengan </string>
+    <string name="terms_link">Syarat &amp; Ketentuan</string>
+</resources>

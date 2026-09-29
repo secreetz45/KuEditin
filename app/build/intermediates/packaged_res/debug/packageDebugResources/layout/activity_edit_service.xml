@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSurface">
+
+    <!-- Dedicated Background Mesh View (Login Style) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_mesh_blur" />
+
+    <!-- Subtle Texture Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_dot_pattern"
+        android:alpha="0.08" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="60dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Premium Gradient Header Banner -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_home_header"
+                android:clipChildren="false">
+
+                <!-- Decorative Background Glow Circle -->
+                <View
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="-40dp"
+                    android:layout_marginRight="-40dp"
+                    android:alpha="0.15"
+                    android:background="@drawable/circle_blue_soft" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="48dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp">
+
+                        <ImageView
+                            android:id="@+id/btn_back"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_white_elevated"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_back_ios"
+                            app:tint="@color/colorPrimary" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Kelola Profil &amp; Paket Jasa"
+                        android:textColor="@color/white"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Atur bio, galeri sampel karya banyak foto, dan paket tarif jasa"
+                        android:textColor="#DBEAFE"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- Main Content Container with Spacious Section Cards -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="16dp">
+
+                <!-- CARD SECTION 1: Profil & Galeri Portofolio -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/cardSurface"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="3dp"
+                    app:strokeColor="@color/borderLight"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="22dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profil &amp; Galeri Portofolio"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Keahlian, bio, dan contoh sampel karya berupa galeri foto"
+                            android:textColor="@color/textMuted"
+                            android:textSize="12sp" />
+
+                        <!-- Kategori Utama -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:text="Kategori Keahlian Utama *"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/input_kategori"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Contoh: Video Editor, Motion Graphic, UI/UX"
+                            android:importantForAutofill="no"
+                            android:inputType="textCapWords"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:singleLine="true"
+                            android:textColor="@color/textPrimary"
+                            android:textColorHint="@color/textMuted"
+                            android:textSize="14sp" />
+
+                        <!-- Jam Terbang / Pengalaman -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:text="Pengalaman Kerja / Jam Terbang *"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/input_experience"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Contoh: 3+ Tahun Pengalaman / Senior Editor"
+                            android:importantForAutofill="no"
+                            android:inputType="textCapWords"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:singleLine="true"
+                            android:textColor="@color/textPrimary"
+                            android:textColorHint="@color/textMuted"
+                            android:textSize="14sp" />
+
+                        <!-- Software / Tools -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:text="Software / Aplikasi Editing *"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/input_software_tools"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="Contoh: Premiere Pro, After Effects, DaVinci"
+                            android:importantForAutofill="no"
+                            android:inputType="textCapWords"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:singleLine="true"
+                            android:textColor="@color/textPrimary"
+                            android:textColorHint="@color/textMuted"
+                            android:textSize="14sp" />
+
+                        <!-- Bio Deskripsi -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:text="Deskripsi Profil &amp; Latar Belakang *"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/input_deskripsi"
+                            android:layout_width="match_parent"
+                            android:layout_height="96dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/bg_textarea"
+                            android:gravity="top|start"
+                            android:hint="Ceritakan keahlian, software yang dikuasai, dan latar belakang profesional kamu..."
+                            android:importantForAutofill="no"
+                            android:inputType="textMultiLine"
+                            android:padding="16dp"
+                            android:textColor="@color/textPrimary"
+                            android:textColorHint="@color/textMuted"
+                            android:textSize="14sp" />
+
+                        <!-- Sample Portfolio Gallery Section -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Galeri Sampel Karya *"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Unggah beberapa contoh karya/screenshot terbaikmu (Bisa Banyak Foto)"
+                            android:textColor="@color/textMuted"
+                            android:textSize="12sp" />
+
+                        <!-- Horizontal Thumbnails Scroll Container -->
+                        <HorizontalScrollView
+                            android:id="@+id/scroll_sample_images"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:id="@+id/sample_images_container"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="horizontal"
+                                android:paddingTop="4dp"
+                                android:paddingBottom="6dp" />
+                        </HorizontalScrollView>
+
+                        <!-- Upload Image Button (Pill Button Style) -->
+                        <TextView
+                            android:id="@+id/btn_upload_sample"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/bg_upload"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:text="+ Upload Foto Sampel Karya (Bisa Banyak)"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <!-- Link Sampel Karya -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:text="Atau Link Portofolio (Drive / YouTube / Behance)"
+                            android:textColor="@color/textMuted"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/input_sample_link"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/bg_input"
+                            android:hint="https://drive.google.com/... atau YouTube link"
+                            android:importantForAutofill="no"
+                            android:inputType="textUri"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:singleLine="true"
+                            android:textColor="@color/textPrimary"
+                            android:textColorHint="@color/textMuted"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- CARD SECTION 2: Kelola Paket Jasa Editor -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/cardSurface"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="3dp"
+                    app:strokeColor="@color/borderLight"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="22dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daftar Paket Tarif Jasa Editor"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Tambah dan sesuaikan paket tarif pengerjaan proyek kamu"
+                            android:textColor="@color/textMuted"
+                            android:textSize="12sp" />
+
+                        <!-- Dynamic Package List Container -->
+                        <LinearLayout
+                            android:id="@+id/package_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:orientation="vertical" />
+
+                        <!-- Add New Package Button (Pill Style) -->
+                        <TextView
+                            android:id="@+id/btn_add_package"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/bg_chip_selected"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:text="+ Tambah Paket Jasa Baru"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- CARD SECTION 3: Jasa & Add-On Tambahan -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    app:cardBackgroundColor="@color/cardSurface"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="3dp"
+                    app:strokeColor="@color/borderLight"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="22dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Layanan Add-On &amp; Biaya Tambahan"
+                            android:textColor="@color/textPrimary"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Layanan prioritas kilat atau fitur kustom (Opsional)"
+                            android:textColor="@color/textMuted"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/input_custom_services"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/bg_textarea"
+                            android:gravity="top|start"
+                            android:hint="Contoh: Express 24 Jam (+Rp50rb), Color Grading Pro (+Rp100rb)"
+                            android:importantForAutofill="no"
+                            android:inputType="textMultiLine"
+                            android:padding="16dp"
+                            android:textColor="@color/textPrimary"
+                            android:textColorHint="@color/textMuted"
+                            android:textSize="13sp" />
+
+                        <!-- Submit Button -->
+                        <LinearLayout
+                            android:id="@+id/btn_save_service"
+                            android:layout_width="match_parent"
+                            android:layout_height="54dp"
+                            android:layout_marginTop="24dp"
+                            android:background="@drawable/bg_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="SIMPAN PROFIL &amp; SEMUA PAKET JASA"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

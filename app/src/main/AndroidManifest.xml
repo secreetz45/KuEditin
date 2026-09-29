@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <application android:icon="@mipmap/ic_app_icon" android:roundIcon="@mipmap/ic_app_icon" android:theme="@style/AppTheme" android:label="@string/app_name" android:allowBackup="true" android:resizeableActivity="true">
+        <activity android:name=".TermsConditionsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ForgotPasswordActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".PaymentMethodsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RevisionDisputeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".WithdrawalActivity" android:screenOrientation="portrait" />
+        <activity android:name=".NotificationsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ResultPreviewActivity" android:screenOrientation="portrait" />
+        <activity android:name=".PaymentActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ChangePasswordActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ClientOrderDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EditorOrderDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SuccessOrderActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SuccessRegisterActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EditServiceActivity" android:screenOrientation="portrait" />
+        <activity android:name=".BriefOrderActivity" android:screenOrientation="portrait" />
+        <activity android:name=".DetailServiceActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EditProfileActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ProfileActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ChatRoomActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ChatListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".DetailEditorActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EditorHomeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EditorOrdersActivity" android:screenOrientation="portrait" />
+        <activity android:name=".OrderClientActivity" android:screenOrientation="portrait" />
+        <activity android:name=".AllEditorsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".HomeClientActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RegisterEditorActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RegisterClientActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ClientOnboardingActivity" android:screenOrientation="portrait" />
+        <activity android:name=".WaitingApprovalActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RegisterRoleActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <!-- Custom Scheme Deep Link (kueditin://app) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="kueditin" android:host="app" />
+            </intent-filter>
+            <!-- HTTPS Web App Link (Free Firebase Domain) -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="mediamatchz.web.app" />
+                <data android:scheme="https" android:host="mediamatchz.firebaseapp.com" />
+            </intent-filter>
+        </activity>
+            <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

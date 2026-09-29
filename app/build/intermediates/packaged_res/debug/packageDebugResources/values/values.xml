@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_soft_blue">#EEEEFF</color>
+    <color name="borderFocus">#94A3B8</color>
+    <color name="borderLight">#E2E8F0</color>
+    <color name="cardSurface">#FFFFFF</color>
+    <color name="colorAccent">#7334FF</color>
+    <color name="colorBrand">#7334FF</color>
+    <color name="colorPrimary">#5D63FF</color>
+    <color name="colorPrimaryDark">#474EDD</color>
+    <color name="colorPrimaryLight">#EEEEFF</color>
+    <color name="colorSecondary">#7334FF</color>
+    <color name="colorSurface">#F8FAFF</color>
+    <color name="error">#EF4444</color>
+    <color name="hint_color">#94A3B8</color>
+    <color name="icon_background">#FFFFFF</color>
+    <color name="star_gold">#F59E0B</color>
+    <color name="success">#10B981</color>
+    <color name="textMuted">#64748B</color>
+    <color name="textPrimary">#0F172A</color>
+    <color name="textSecondary">#475569</color>
+    <color name="warning">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <string name="agree_text">Saya setuju dengan </string>
+    <string name="app_name">KuEditin</string>
+    <string name="btn_login">MASUK SEKARANG</string>
+    <string name="cat_motion">Motion</string>
+    <string name="cat_photo">Foto</string>
+    <string name="cat_uiux">UI/UX</string>
+    <string name="cat_video">Video</string>
+    <string name="cloudinary_cloud_name">dfcwl4kue</string>
+    <string name="cloudinary_upload_preset">mediamatch</string>
+    <string name="default_web_client_id" translatable="false">375737130180-tgce8n457ft10buqc8os8891lnc9pa3g.apps.googleusercontent.com</string>
+    <string name="email_hint">Alamat Email</string>
+    <string name="firebase_database_url" translatable="false">https://mediamatchz-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="gcm_defaultSenderId" translatable="false">375737130180</string>
+    <string name="google_api_key" translatable="false">AIzaSyD5IJYwVkV89tUaD2DQv8G6Bz_iuUA43ZA</string>
+    <string name="google_app_id" translatable="false">1:375737130180:android:2e9f10f7bd861b3526bd91</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD5IJYwVkV89tUaD2DQv8G6Bz_iuUA43ZA</string>
+    <string name="google_login">Masuk dengan Google</string>
+    <string name="google_storage_bucket" translatable="false">mediamatchz.firebasestorage.app</string>
+    <string name="inspiration_karya">Inspirasi Karya</string>
+    <string name="language_option">Bahasa / Language</string>
+    <string name="login_sub">Akses ekosistem pengerjaan jasa multimedia aman</string>
+    <string name="login_title">Masuk Akun</string>
+    <string name="logout">Keluar Akun</string>
+    <string name="nav_chat">Pesan</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_order">Pesanan</string>
+    <string name="nav_profile">Profil</string>
+    <string name="no_account">Belum memiliki akun KuEditin?</string>
+    <string name="password_hint">Password / Kata Sandi</string>
+    <string name="project_id" translatable="false">mediamatchz</string>
+    <string name="rec_editor">Rekomendasi Editor</string>
+    <string name="register_now">Daftar Akun Baru</string>
+    <string name="see_all">Lihat Semua</string>
+    <string name="service_category">Kategori Jasa</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="terms_link">Syarat &amp; Ketentuan</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorSurface</item>
+        <item name="android:colorBackground">@color/colorSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/colorSurface</item>
+        <item name="android:navigationBarColor">@color/colorSurface</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowAnimationStyle">@style/WindowTransitions</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+    <style name="CircleImageAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="WindowTransitions">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+</resources>

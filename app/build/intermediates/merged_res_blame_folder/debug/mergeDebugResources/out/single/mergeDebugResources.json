@@ -1,0 +1,750 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_client_registration.jpg.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_client_registration.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_setting_security.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_setting_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_btn_light.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_btn_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_notification_chip.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_notification_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_field_normal.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_field_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_setting_row.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_setting_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_copy_vector.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_copy_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_editor_orders.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_editor_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_camera_badge.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_camera_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_card.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_logo_capsule.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_logo_capsule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_theme_dark.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_theme_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_chip_selected.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_chip_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_shake.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\shake.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_home_header.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_home_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_layout_nav_animated.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\layout_nav_animated.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_brief_order.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_brief_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_logo_brand_kueditin.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\logo_brand_kueditin.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_review_summary.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_review_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_verified_badge.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_verified_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_gradient_bottom_shadow.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_gradient_bottom_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_cycle_7.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\cycle_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_input.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_slide_in_up.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\slide_in_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_google.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_verified_badge.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_verified_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_setting_revision.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_setting_revision.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\mipmap-xxxhdpi_ic_app_icon.jpg.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\mipmap-xxxhdpi\\ic_app_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_circle_green_dot.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\circle_green_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\color_hint_color_selector.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\color\\hint_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_cat_motion.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_cat_motion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_nav_indicator_glass.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\nav_indicator_glass.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_layout_list.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_layout_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_notification_card.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_notification_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_theme_system.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_theme_system.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_setting_circle.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_setting_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_circle_gray_dot.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\circle_gray_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_theme_dark.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_theme_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_field_active.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_field_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_register_role.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_register_role.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_btn_premium_ripple.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_btn_premium_ripple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_app_pattern.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_app_pattern.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_nav_curve.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_nav_curve.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_chip.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_layout_grid.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_layout_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_input.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_mesh_blur.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_mesh_blur.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_setting_theme.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_setting_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_setting_payment.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_setting_payment.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_mesh_blur.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_mesh_blur.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_setting_notification.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_setting_notification.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_layout_list.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_layout_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_setting_logout.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_setting_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_category_video.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_category_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_nav_chat.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_nav_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_back_ios.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_back_ios.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_entrance_float.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\entrance_float.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_rating_dark.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_rating_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_editor_order_detail.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_editor_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_theme_light.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_theme_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_circle_blue.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\circle_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_detail_service.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_detail_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_upload.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_online.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_online.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_category_selected.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_category_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_category_motion.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_category_motion.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_dot_pattern.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_dot_pattern.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_rating.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_badge_online.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_badge_online.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_dot.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_circle_soft.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\circle_soft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_textarea.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_textarea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_btn.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_status.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_nav_profile.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_nav_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_skill_selected.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_skill_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_nav_pill.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_nav_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_field_normal.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_field_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_waiting_approval.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_waiting_approval.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_client_order_detail.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_client_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_input_error.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_input_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_logo_capsule.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_logo_capsule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_layout_grid.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_layout_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_editor_chat.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_editor_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_circle_blue_soft.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\circle_blue_soft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_textarea_error.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_textarea_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_skill.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_editor_manage_service.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_editor_manage_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_empty_state.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_empty_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_chat_room.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_chat_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_working.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_working.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_option_item.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_option_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_client_role.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_client_role.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_all_editors.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_all_editors.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_circle_white_elevated.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\circle_white_elevated.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_category_uiux.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_category_uiux.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_price.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_price.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_setting_withdrawal.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_setting_withdrawal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_category_photo.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_category_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_slide_out_down.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\slide_out_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_upload_error.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_upload_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_chip_selected.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_chip_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_chat_mine.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_chat_mine.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_nav_order.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_nav_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_revision_dispute.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_revision_dispute.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_cat_video.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_cat_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_order_client.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_order_client.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_detail_editor.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_detail_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_theme_system.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_theme_system.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_client_onboarding.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_client_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_circle_white_elevated.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\circle_white_elevated.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_setting_about.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_setting_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_cat_photo.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_cat_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_editor_manage_service.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_editor_manage_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_editor_role.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_editor_role.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_btn_premium.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_btn_premium.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_chat_other.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_chat_other.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_btn_secondary.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_btn_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_withdrawal.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_withdrawal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_nav_home.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_nav_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_copy_vector.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_copy_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_editor_chat.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_editor_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_setting_security.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_setting_security.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_input_error.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_input_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_hourglass_vector.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_hourglass_vector.xml"
+    },
+    {
+        "merged": "com.example.mediamatch.app-debug-45:/layout_activity_all_editors.xml.flat",
+        "source": "com.example.mediamatch.app-main-47:/layout/activity_all_editors.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_terms_conditions.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_terms_conditions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_profile_panel.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_profile_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_google_g.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\google_g.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_setting_withdrawal.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_setting_withdrawal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_notification_bell.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_notification_bell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_input_glass.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_input_glass.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_glass.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_glass.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_badge_canceled.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_badge_canceled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_cat_uiux.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_cat_uiux.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_chip.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_nav_pill.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_nav_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_badge_skill.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_badge_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_textarea.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_textarea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_canceled.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_canceled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_chip_error.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_chip_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_setting_layout.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_setting_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_chat_list.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_search_white.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_search_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_circle_soft.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\circle_soft.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_home_client.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_home_client.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_editor_orders.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_editor_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-nodpi_ic_editor_registration.jpg.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-nodpi\\ic_editor_registration.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_card_selected.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_card_selected.xml"
+    },
+    {
+        "merged": "com.example.mediamatch.app-debug-45:/drawable_bg_home_header.xml.flat",
+        "source": "com.example.mediamatch.app-main-47:/drawable/bg_home_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_register_client.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_register_client.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_success_order.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_success_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_empty_state.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_empty_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_edit_service.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_edit_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_nav_indicator_move.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\nav_indicator_move.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\anim_no_anim.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\anim\\no_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_badge_pending.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_badge_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_star_filled.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_star_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_option_item.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_option_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_editor_home.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_editor_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_ic_theme_light.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\ic_theme_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_register_editor.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_register_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\layout_activity_notifications.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\layout\\activity_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable-night_bg_search_white.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable-night\\bg_search_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_card_premium.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_card_premium.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_notification_icon.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_notification_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-debug-45:\\drawable_bg_btn_outline.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.3.0\\com.example.mediamatch.app-main-47:\\drawable\\bg_btn_outline.xml"
+    },
+    {
+        "merged": "com.example.mediamatch.app-debug-45:/layout_activity_home_client.xml.flat",
+        "source": "com.example.mediamatch.app-main-47:/layout/activity_home_client.xml"
+    }
+]
